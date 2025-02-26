@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+            body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec;
+    color: #444;
+}
+
+header {
+    background-color: #ff80ab;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: url('little stars.png') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hero .content {
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color: #d81b60;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ff4081;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+#contact strong {
+    color: #d81b60;
+}
+    </style>
+
+
+<section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+        <h1>Mirësevini në Kopshtin "Little Stars"</h1>
+        <p>Një vend i sigurt dhe argëtues për zhvillimin e fëmijëve tuaj!</p>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Çfarë Ofrojmë?</h2>
+    <ul>
+        <li>Orar të shkurtër dhe të gjatë për fëmijët</li>
+        <li>Ushqim të shëndetshëm dhe të ekuilibruar</li>
+        <li>Aktivitete të ndryshme edukative dhe argëtuese</li>
+        <li>Zhvillim kreativ dhe lojëra interaktive</li>
+        <li>Mjedis i ngrohtë dhe i sigurt</li>
+    </ul>
+</section>
+
+
+<section id="contact">
+    <h2>Kontakt</h2>
+    <p>Na kontaktoni në: <strong>+38344578177</strong></p>
+    <p>Email: <strong>fsallahu8@gmail.com</strong></p>
+</section>
+</body>
+</html>
